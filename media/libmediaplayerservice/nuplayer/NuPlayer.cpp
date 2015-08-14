@@ -1107,7 +1107,6 @@ status_t NuPlayer::onInstantiateSecureDecoders() {
 
 void NuPlayer::onStart() {
     mOffloadAudio = false;
-    mOffloadDecodedPCM = false;
     mAudioEOS = false;
     mVideoEOS = false;
     mStarted = true;
